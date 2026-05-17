@@ -1,75 +1,95 @@
-# React + TypeScript + Vite
+# SupaFlow — Premium Digital Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end agency portfolio built with React, Vite, and Tailwind CSS. Featuring buttery smooth animations, a custom cursor system, horizontal scroll sections, and a fully content-driven architecture.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** + TypeScript
+- **Vite 8** with HMR
+- **Tailwind CSS v4** (via `@tailwindcss/vite`)
+- **Framer Motion** — scroll reveals, staggered entrances, spring physics, magnetic buttons
+- **shadcn/ui** — customized component primitives (Button, Badge, Card)
+- **React Router DOM v7** — multi-page routing
+- **Cal.com Embed React** — scheduling integration
+- **Iconify** — icon system (`@iconify/react`)
+- **Lenis** — smooth scroll
 
-## React Compiler
+## Pages
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+| Route | Description |
+|-------|-------------|
+| `/` | Home — hero, services bento, horizontal scroll process, work showcase, capabilities, testimonial, CTA |
+| `/book` | Booking — Cal.com calendar embed for scheduling intro calls |
+| `/privacy` | Privacy Policy |
+| `/terms` | Terms of Service |
+| `*` | 404 — styled not-found page |
 
-Note: This will impact Vite dev & build performances.
+## Project Structure
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/       # UI sections (Hero, Navbar, Services, Process, Work, etc.)
+│   └── ui/           # shadcn/ui primitives (Button, Badge, Card, Separator)
+├── data/
+│   └── content.json  # All page content — single source of truth
+├── hooks/            # Custom hooks (useInteractions, useMobile)
+├── lib/              # Utilities (motion primitives, cn helper)
+├── pages/            # Route pages (Book, Privacy, Terms, NotFound)
+├── App.tsx           # Home page layout
+├── main.tsx          # Router setup + ScrollToTop
+└── index.css         # Global styles, custom cursor, animations
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Content Management
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+All text content is centralized in `src/data/content.json`. Components import and render from this file — update copy in one place without touching components.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Features
+
+- Custom cursor with smooth hide/show over embedded content
+- Magnetic button hover effects via `useMotionValue` / `useSpring`
+- Horizontal scroll process section (desktop) with mobile column fallback
+- Bento grid services with 3D tilt cards
+- Staggered entrance animations with spring physics
+- Responsive across all breakpoints (mobile-first)
+- Accessibility: skip links, aria labels, focus-visible, prefers-reduced-motion
+- Security: no XSS vectors, HTTPS-only assets, proper `rel="noopener noreferrer"`
+
+## Getting Started
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start dev server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Preview production build
+pnpm preview
 ```
+
+## Deployment
+
+Optimized for Vercel. Add security headers via `vercel.json`:
+
+```json
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}
+```
+
+## License
+
+Private. All rights reserved.
