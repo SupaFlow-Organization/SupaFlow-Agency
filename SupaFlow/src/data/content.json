@@ -1,0 +1,390 @@
+{
+  "brand": {
+    "name": "SupaFlow.",
+    "tagline": "// SUPAFLOW AGENCY — EST. 2024",
+    "email": "// SUPAFLOW.WORKS@GMAIL.COM",
+    "copyright": "// DEVELOPED REMOTELY • 2024 © SUPAFLOW",
+    "footerTagline": "Elite digital agency crafting premium web experiences.",
+    "footerWatermark": "SUPAFLOW"
+  },
+  "navbar": {
+    "cta": "Start a project",
+    "menuItems": [
+      {
+        "href": "#services",
+        "label": "Services",
+        "num": "01"
+      },
+      {
+        "href": "#process",
+        "label": "Process",
+        "num": "02"
+      },
+      {
+        "href": "#work",
+        "label": "Work",
+        "num": "03"
+      }
+    ]
+  },
+  "hero": {
+    "heading": "Premium websites &",
+    "headingHighlight": "digital experiences",
+    "headingSuffix": "for ambitious brands.",
+    "description": "Elite digital agency crafting award-winning websites, highly interactive web applications, and visually stunning brand identities.",
+    "cta": "See our work",
+    "ctaSecondary": "Book intro call",
+    "clientsLabel": "Trusted by innovative teams",
+    "clients": [
+      "Nova",
+      "Pack2go",
+      "Nexus Commerce",
+      "Verta Aesthetics",
+      "Horizon Studio"
+    ]
+  },
+  "marquee": [
+    "PREMIUM WEBSITES",
+    "CREATIVE DEVELOPMENT",
+    "BRAND IDENTITIES",
+    "MOTION DESIGN",
+    "E-COMMERCE",
+    "WEBGL EXPERIENCES"
+  ],
+  "services": {
+    "label": "01 / Capabilities",
+    "heading": "Built with intent.",
+    "items": [
+      {
+        "title": "Premium Websites",
+        "description": "Bespoke websites engineered for stunning aesthetics, buttery smooth animations, and high conversion rates.",
+        "image": "https://cdn.dribbble.com/userupload/42956633/file/original-622d96ed13d83e30b7a4f2debd60d736.png?resize=2048x1536&vertical=center"
+      },
+      {
+        "title": "Creative Development",
+        "description": "Cutting-edge web technologies and interaction design.",
+        "image": "https://cdn.dribbble.com/userupload/47738578/file/203d09173e57b55d91c6b6a9bbb06a55.png?resize=2048x1536&vertical=center"
+      },
+      {
+        "title": "Digital Platforms",
+        "description": "Scalable web apps with uncompromising design quality.",
+        "image": "https://cdn.dribbble.com/userupload/14919024/file/original-94c0142c043b25151bef5ce291fc0e1d.jpg?resize=1504x1128&vertical=center"
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Pixel-perfect interfaces.",
+        "icon": "solar:pen-new-square-linear",
+        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/105202b3-12e5-413b-a6ed-e7f1ae9e0170_3840w.jpg"
+      },
+      {
+        "title": "Motion Design",
+        "description": "Fluid micro-interactions.",
+        "icon": "solar:play-circle-linear",
+        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/bffbf215-cf4b-4096-bef7-a1980a0ae243_3840w.webp"
+      }
+    ]
+  },
+  "process": {
+    "label": "02 / Methodology",
+    "heading": "From zero to launch.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Strategy",
+        "description": "Deep dive into brand identity, art direction, and digital strategy. No templates, just bespoke planning.",
+        "hoverColor": "group-hover:text-brand-orange",
+        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/9bec02ad-7636-45cf-998f-29c70770cf44_3840w.webp"
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "Wireframing, establishing premium design systems, and creating high-fidelity prototypes focused on aesthetics.",
+        "hoverColor": "group-hover:text-brand-pink",
+        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4d9d4218-e500-4528-97d0-07e520d1b8f4_3840w.webp"
+      },
+      {
+        "number": "03",
+        "title": "Engineering",
+        "description": "Creative development mixed with strict performance goals. React, WebGL, and buttery smooth animations.",
+        "hoverColor": "group-hover:text-brand-purple",
+        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2bd49270-025a-44cb-b3c5-a32949c8b8c9_3840w.webp"
+      },
+      {
+        "number": "04",
+        "title": "Delivery",
+        "description": "Rigorous QA across all devices, performance optimization, and hand-off of a pixel-perfect digital experience.",
+        "hoverColor": "group-hover:text-brand-blue",
+        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/eec7d590-a415-4f84-95c7-2bd03be48662_3840w.jpg"
+      }
+    ]
+  },
+  "work": {
+    "label": "03 / Selected Work",
+    "heading": "Proof of concept.",
+    "featured": [
+      {
+        "category": "Fintech",
+        "title": "Nova Studio",
+        "offset": false,
+        "image": "https://cdn.dribbble.com/userupload/42604910/file/original-4d2b85eacd2de087d07faaa270244208.png?resize=1504x1128&vertical=center"
+      },
+      {
+        "category": "SaaS",
+        "title": "Pack2go Booking",
+        "offset": true,
+        "image": "https://cdn.dribbble.com/userupload/44343864/file/e0d559283d6c330401e27002ea95f2ec.jpg?resize=1200x675&vertical=center"
+      }
+    ],
+    "list": [
+      {
+        "title": "Nexus Commerce",
+        "type": "Luxury E-com"
+      },
+      {
+        "title": "Verta Aesthetics",
+        "type": "Brand Identity"
+      },
+      {
+        "title": "Horizon Studio",
+        "type": "Portfolio"
+      }
+    ]
+  },
+  "capabilities": {
+    "label": "04 / Tech Stack",
+    "heading": "Modern primitive tools.",
+    "techStack": [
+      {
+        "icon": "logos:nextjs-icon",
+        "label": "Next.js"
+      },
+      {
+        "icon": "logos:react",
+        "label": "React"
+      },
+      {
+        "icon": "logos:typescript-icon",
+        "label": "TypeScript"
+      },
+      {
+        "icon": "devicon:tailwindcss",
+        "label": "Tailwind"
+      },
+      {
+        "icon": "logos:supabase-icon",
+        "label": "Supabase"
+      },
+      {
+        "icon": "logos:vercel-icon",
+        "label": "Vercel"
+      },
+      {
+        "icon": "ph:framer-logo-duotone",
+        "label": "Framer Motion",
+        "iconClass": "text-black"
+      },
+      {
+        "icon": "logos:nodejs-icon",
+        "label": "Node.js"
+      }
+    ],
+    "stats": [
+      {
+        "value": "100",
+        "suffix": "+",
+        "suffixColor": "text-brand-orange",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "10",
+        "suffix": "+",
+        "suffixColor": "text-brand-pink",
+        "label": "Countries Served"
+      },
+      {
+        "value": "40",
+        "suffix": "+",
+        "suffixColor": "text-brand-purple",
+        "label": "Happy Clients"
+      },
+      {
+        "value": "99",
+        "suffix": "%",
+        "suffixColor": "text-brand-blue",
+        "label": "Client Retention"
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "SupaFlow doesn't just build websites; they craft digital masterpieces. Their obsessive attention to aesthetics, typography, and buttery smooth animations elevated our brand identity to a whole new level.",
+    "author": "David Thompson",
+    "role": "Creative Director, Nova Studio"
+  },
+  "cta": {
+    "heading": "Got an ambitious project?",
+    "description": "Let's talk. We respond within 24 hours. No fluff, just straight to award-winning design and premium digital experiences.",
+    "button": "Book a call"
+  },
+  "footer": {
+    "services": [
+      {
+        "label": "Premium Websites",
+        "hoverColor": "hover:text-brand-orange"
+      },
+      {
+        "label": "Creative Development",
+        "hoverColor": "hover:text-brand-pink"
+      },
+      {
+        "label": "Digital Platforms",
+        "hoverColor": "hover:text-brand-purple"
+      },
+      {
+        "label": "UI/UX Design",
+        "hoverColor": "hover:text-brand-blue"
+      }
+    ],
+    "company": [
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Process",
+        "href": "#process"
+      },
+      {
+        "label": "About",
+        "href": "#"
+      },
+      {
+        "label": "Contact",
+        "href": "/book"
+      }
+    ],
+    "social": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/supaflow.works"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/company/supaflow"
+      },
+      {
+        "label": "Twitter",
+        "url": "https://x.com/supaflowworks"
+      }
+    ],
+    "legal": [
+      "Privacy Policy",
+      "Terms"
+    ]
+  },
+  "book": {
+    "label": "// BOOK A CALL",
+    "heading": "Let's build something remarkable together.",
+    "description": "Pick a time that works for you. We'll discuss your project goals, timeline, and how SupaFlow can bring your vision to life.",
+    "backButton": "Back to home"
+  },
+  "privacy": {
+    "label": "// LEGAL",
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: December 15, 2025",
+    "intro": "At SupaFlow, we take your privacy seriously. This policy outlines how we collect, use, store, and protect your personal information when you interact with our services.",
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "content": "When you engage with SupaFlow, we may collect the following categories of information:\n\nPersonal Information: Name, email address, phone number, and company details provided when you book a call, submit a contact form, or enter into a service agreement.\n\nProject Information: Design briefs, brand assets, content, and other materials you share with us during the course of a project.\n\nUsage Data: Anonymous analytics data including pages visited, time spent on site, browser type, device information, and referring URLs. We use this to improve our website experience.\n\nCommunication Records: Email correspondence, call notes, and project feedback exchanged between you and our team."
+      },
+      {
+        "title": "2. How We Use Your Information",
+        "content": "We process your information exclusively for the following purposes:\n\n- To deliver design, development, and creative services as agreed in our project scope\n- To schedule and conduct introductory calls and project meetings\n- To send project updates, deliverables, and invoices\n- To improve our website performance and user experience\n- To respond to your inquiries and provide client support\n- To comply with legal obligations and protect our legitimate business interests\n\nWe do not sell, rent, or trade your personal information to third parties for marketing purposes."
+      },
+      {
+        "title": "3. Data Storage and Security",
+        "content": "Your data is stored on secure, encrypted servers provided by industry-leading infrastructure partners. We implement appropriate technical and organizational measures to protect your information against unauthorized access, alteration, disclosure, or destruction.\n\nThese measures include:\n- End-to-end encryption for data in transit (TLS 1.3)\n- Encrypted storage at rest (AES-256)\n- Regular security audits and vulnerability assessments\n- Strict access controls limited to authorized team members\n- Automated backup systems with geographic redundancy"
+      },
+      {
+        "title": "4. Third-Party Services",
+        "content": "We use the following third-party services in the operation of our business:\n\n- Cal.com — Scheduling and calendar management\n- Vercel — Website hosting and deployment\n- Supabase — Database and file storage\n- Google Analytics — Anonymous website usage analytics\n\nEach third-party provider operates under their own privacy policy. We select partners who demonstrate strong data protection practices and GDPR compliance."
+      },
+      {
+        "title": "5. Your Rights",
+        "content": "Depending on your jurisdiction, you may have the following rights regarding your personal data:\n\n- Access: Request a copy of the personal data we hold about you\n- Rectification: Request correction of inaccurate or incomplete data\n- Erasure: Request deletion of your personal data (\"right to be forgotten\")\n- Portability: Request transfer of your data in a machine-readable format\n- Objection: Object to processing based on legitimate interests\n- Restriction: Request limitation of processing in certain circumstances\n\nTo exercise any of these rights, contact us at supaflow.works@gmail.com. We will respond within 30 days."
+      },
+      {
+        "title": "6. Cookies",
+        "content": "Our website uses essential cookies required for basic functionality (session management, security). We use anonymous analytics cookies to understand how visitors interact with our site. No advertising or tracking cookies are used.\n\nYou can control cookie preferences through your browser settings. Disabling essential cookies may affect site functionality."
+      },
+      {
+        "title": "7. Data Retention",
+        "content": "We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy:\n\n- Active project data: Duration of the project plus 2 years for warranty and support purposes\n- Financial records: 7 years as required by tax regulations\n- Communication records: 3 years after last interaction\n- Analytics data: 26 months (anonymized)\n\nUpon expiration of these periods, data is securely deleted or anonymized."
+      },
+      {
+        "title": "8. Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. Material changes will be communicated via email to active clients. The \"Last updated\" date at the top of this page indicates when the policy was most recently revised."
+      },
+      {
+        "title": "9. Contact",
+        "content": "For privacy-related inquiries, data requests, or concerns:\n\nEmail: supaflow.works@gmail.com\nResponse Time: Within 30 business days\n\nIf you believe your data protection rights have been violated, you have the right to lodge a complaint with your local data protection authority."
+      }
+    ]
+  },
+  "terms": {
+    "label": "// LEGAL",
+    "heading": "Terms of Service",
+    "lastUpdated": "Last updated: January 15, 2025",
+    "intro": "These Terms govern your engagement with SupaFlow for digital design and development services. By commissioning work from us, you agree to the following conditions.",
+    "sections": [
+      {
+        "title": "1. Scope of Services",
+        "content": "SupaFlow provides premium digital design and development services including, but not limited to: website design, web application development, brand identity systems, motion design, and creative direction.\n\nThe specific scope, deliverables, timeline, and compensation for each engagement are defined in a separate Statement of Work (SOW) or project proposal, which forms part of these Terms upon acceptance by both parties."
+      },
+      {
+        "title": "2. Project Engagement",
+        "content": "Proposal & Acceptance: Each project begins with a discovery call followed by a detailed proposal. Work commences only upon written acceptance (email confirmation is sufficient) and receipt of the agreed deposit.\n\nTimelines: Project timelines provided in proposals are estimates based on the defined scope. Delays caused by late client feedback, scope changes, or third-party dependencies may extend the timeline without penalty to SupaFlow.\n\nCommunication: We maintain clear, responsive communication throughout every project. Primary communication channels, meeting cadence, and feedback processes are established at project kickoff."
+      },
+      {
+        "title": "3. Payment Terms",
+        "content": "Structure: Unless otherwise agreed, projects follow a milestone-based payment structure:\n- 50% deposit upon project commencement\n- 25% at design approval\n- 25% upon final delivery\n\nInvoicing: Invoices are issued via email and payable within 14 days of receipt. Accepted payment methods include bank transfer, Wise, and Stripe.\n\nLate Payments: Invoices unpaid after 14 days incur a 1.5% monthly late fee. Work may be paused on accounts with outstanding balances exceeding 30 days.\n\nExpenses: Third-party costs (stock assets, premium fonts, hosting, domain registration, API subscriptions) are billed separately at cost unless pre-approved and included in the project budget."
+      },
+      {
+        "title": "4. Intellectual Property",
+        "content": "Client Ownership: Upon receipt of full and final payment, all custom design work, code, and deliverables created specifically for the client's project are transferred to the client with full ownership rights.\n\nPre-existing IP: Tools, frameworks, libraries, and reusable code components developed by SupaFlow prior to or independently of the project remain the property of SupaFlow. The client receives a perpetual, non-exclusive license to use these elements within the delivered project.\n\nOpen Source: Projects may incorporate open-source software governed by their respective licenses (MIT, Apache 2.0, etc.). These licenses are documented in the project's dependency manifest.\n\nPortfolio Rights: SupaFlow retains the right to showcase completed work in portfolios, case studies, and marketing materials unless explicitly restricted in the SOW."
+      },
+      {
+        "title": "5. Client Responsibilities",
+        "content": "To ensure successful project delivery, the client agrees to:\n\n- Provide all required content, assets, brand guidelines, and access credentials in a timely manner\n- Designate a single point of contact with decision-making authority\n- Provide consolidated feedback within the agreed review periods (typically 5 business days)\n- Ensure all materials provided do not infringe third-party intellectual property rights\n- Maintain active communication and attend scheduled meetings\n\nFailure to meet these responsibilities may result in project delays, which will not constitute a breach by SupaFlow."
+      },
+      {
+        "title": "6. Revisions and Scope Changes",
+        "content": "Included Revisions: Each project phase includes a defined number of revision rounds as specified in the SOW (typically 2 rounds per phase). Revisions within scope are included in the project fee.\n\nOut-of-Scope Changes: Requests that materially alter the agreed scope, add new features, or require reworking approved deliverables constitute scope changes. These will be quoted separately and require written approval before implementation.\n\nDesign Direction Changes: A complete change in design direction after approval of concepts constitutes a restart of that phase and is billed accordingly."
+      },
+      {
+        "title": "7. Warranties and Limitations",
+        "content": "Quality Assurance: SupaFlow warrants that all deliverables will be crafted with professional care and skill, meeting industry standards for quality, performance, and accessibility.\n\nBug Fixes: A 30-day warranty period follows final delivery, during which bugs, broken functionality, and rendering issues directly attributable to our code are fixed at no additional cost.\n\nLimitation of Liability: SupaFlow's total liability for any claim arising from a project shall not exceed the total fees paid by the client for that specific project. We are not liable for indirect, consequential, or incidental damages including lost revenue or data.\n\nThird-Party Services: We do not warrant the continued availability, performance, or pricing of third-party services (hosting providers, APIs, CMS platforms) integrated into deliverables."
+      },
+      {
+        "title": "8. Termination",
+        "content": "By Client: The client may terminate the engagement at any time with 14 days written notice. Fees for completed milestones and work-in-progress (prorated at hourly rate) are due upon termination. The deposit is non-refundable.\n\nBy SupaFlow: We reserve the right to terminate an engagement due to: non-payment exceeding 30 days, repeated failure to provide required materials, abusive conduct toward team members, or requests to produce illegal or harmful content.\n\nDeliverables on Termination: Upon termination and settlement of all outstanding payments, the client receives all completed deliverables up to the termination date."
+      },
+      {
+        "title": "9. Confidentiality",
+        "content": "Both parties agree to maintain the confidentiality of proprietary information shared during the engagement, including but not limited to: business strategies, unreleased products, financial data, user data, and technical architecture.\n\nThis obligation survives termination of the engagement for a period of 2 years.\n\nExceptions: Information that is publicly available, independently developed, or required to be disclosed by law."
+      },
+      {
+        "title": "10. Governing Law",
+        "content": "These Terms are governed by and construed in accordance with applicable law. Any disputes arising from these Terms or related engagements shall first be addressed through good-faith negotiation. If unresolved after 30 days, disputes may be submitted to binding arbitration."
+      },
+      {
+        "title": "11. Amendments",
+        "content": "SupaFlow reserves the right to update these Terms. Changes take effect 30 days after posting. Existing project agreements remain governed by the Terms in effect at the time of signing unless both parties agree to updated terms in writing."
+      },
+      {
+        "title": "12. Contact",
+        "content": "For questions regarding these Terms of Service:\n\nEmail: supaflow.works@gmail.com\nResponse Time: Within 2 business days"
+      }
+    ]
+  }
+}
