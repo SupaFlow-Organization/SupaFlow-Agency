@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
+import { ImageWithSkeleton } from '@/components/ui/image-with-skeleton';
 import { Reveal, springTransition, useInView } from '../lib/motion';
 import { useMobile } from '../hooks/useMobile';
 import content from '@/data/content.json';
@@ -27,7 +28,13 @@ function ProcessCard({ step, index }: { step: typeof steps[0]; index: number }) 
       {step.image && (
         <div className="absolute inset-x-6 sm:inset-x-8 top-16 sm:top-20 bottom-28 sm:bottom-32 flex items-center justify-center pointer-events-none opacity-100 group-hover:scale-105 transition-all duration-500">
           <div className="w-full aspect-video relative overflow-hidden rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.05)]">
-            <img src={step.image} alt={step.title} loading="lazy" className="absolute inset-0 w-full h-full object-cover mix-blend-multiply" />
+            <ImageWithSkeleton
+              src={step.image}
+              alt={step.title}
+              loading="lazy"
+              containerClassName="absolute inset-0"
+              className="w-full h-full object-cover mix-blend-multiply"
+            />
           </div>
         </div>
       )}

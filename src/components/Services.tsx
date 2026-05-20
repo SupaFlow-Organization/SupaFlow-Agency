@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react';
+import { ImageWithSkeleton } from '@/components/ui/image-with-skeleton';
 import { Reveal, StaggerReveal, StaggerItem, TiltCard } from '../lib/motion';
 import content from '@/data/content.json';
 
@@ -30,11 +31,12 @@ export default function Services() {
               </div>
               <div className="flex-grow flex items-center justify-center mt-6 sm:mt-8">
                 <div className="w-full h-[180px] sm:h-[200px] md:h-full relative overflow-hidden rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] group-hover:scale-[1.02] transition-transform duration-700">
-                  <img
+                  <ImageWithSkeleton
                     src={services.items[0].image}
                     alt={services.items[0].title}
                     loading="lazy"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    containerClassName="absolute inset-0"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -53,11 +55,12 @@ export default function Services() {
               </div>
               <div className="flex-grow flex items-center justify-center mt-6 sm:mt-8">
                 <div className="w-full h-[180px] sm:h-[200px] md:h-full relative overflow-hidden rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] group-hover:scale-[1.02] transition-transform duration-700">
-                  <img
+                  <ImageWithSkeleton
                     src={services.items[1].image}
                     alt={services.items[1].title}
                     loading="lazy"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    containerClassName="absolute inset-0"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -81,11 +84,12 @@ export default function Services() {
                     <div className="w-16 h-3 rounded bg-black/5" />
                   </div>
                   <div className="w-full flex-1 rounded-md overflow-hidden relative bg-gray-50 border border-black/5">
-                    <img
+                    <ImageWithSkeleton
                       src={services.items[2].image}
                       alt={services.items[2].title}
                       loading="lazy"
-                      className="absolute inset-0 w-full h-full object-cover object-left-top group-hover:scale-105 transition-transform duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)]"
+                      containerClassName="absolute inset-0"
+                      className="w-full h-full object-cover object-left-top group-hover:scale-105 transition-transform duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)]"
                     />
                   </div>
                 </div>
@@ -96,10 +100,11 @@ export default function Services() {
           <StaggerItem className="col-span-1 min-h-[16rem] md:min-h-0">
             <TiltCard className="bento-card h-full p-0 flex flex-col justify-between group relative overflow-hidden">
               <div className="absolute inset-0 z-0">
-                <img
+                <ImageWithSkeleton
                   src={services.items[3].image}
                   alt={services.items[3].title}
                   loading="lazy"
+                  containerClassName="absolute inset-0"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -123,10 +128,11 @@ export default function Services() {
           <StaggerItem className="col-span-1 min-h-[16rem] md:min-h-0">
             <TiltCard className="bento-card h-full p-0 flex flex-col justify-between group relative overflow-hidden">
               <div className="absolute inset-0 z-0">
-                <img
+                <ImageWithSkeleton
                   src={services.items[4].image}
                   alt={services.items[4].title}
                   loading="lazy"
+                  containerClassName="absolute inset-0"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />

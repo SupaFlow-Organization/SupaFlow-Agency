@@ -1,5 +1,6 @@
 import { Icon } from '@iconify/react';
 import { motion } from 'framer-motion';
+import { ImageWithSkeleton } from '@/components/ui/image-with-skeleton';
 import { Reveal, StaggerReveal, StaggerItem, TiltCard, springTransition } from '../lib/motion';
 import { Badge } from '@/components/ui/badge';
 import content from '@/data/content.json';
@@ -21,14 +22,19 @@ export default function Work() {
               <TiltCard className="bento-card p-3 sm:p-4 pb-6 sm:pb-8 group cursor-pointer">
                 <div className="w-full aspect-[4/3] bg-gray-100 rounded-lg sm:rounded-xl mb-4 sm:mb-6 overflow-hidden relative">
                   {project.image && (
-                    <motion.img
-                      src={project.image}
-                      alt={project.title}
-                      loading="lazy"
-                      className="absolute inset-0 w-full h-full object-cover"
+                    <motion.div
+                      className="absolute inset-0"
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.7, ease: [0.25, 1, 0.5, 1] }}
-                    />
+                    >
+                      <ImageWithSkeleton
+                        src={project.image}
+                        alt={project.title}
+                        loading="lazy"
+                        containerClassName="h-full w-full"
+                        className="h-full w-full object-cover"
+                      />
+                    </motion.div>
                   )}
                 </div>
                 <div className="px-2 sm:px-4 flex justify-between items-end">
