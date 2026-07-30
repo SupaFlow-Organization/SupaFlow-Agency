@@ -64,7 +64,7 @@ export function ImageWithSkeleton({
         alt={alt}
         className={cn(
           className,
-          'transition-opacity duration-600 ease-[cubic-bezier(0.16,1,0.3,1)]',
+          'transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]',
           !loaded ? 'opacity-0' : 'opacity-100'
         )}
         onLoad={(event) => {

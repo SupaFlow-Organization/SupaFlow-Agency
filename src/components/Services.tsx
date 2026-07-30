@@ -105,7 +105,7 @@ export default function Services() {
                   alt={services.items[3].title}
                   loading="lazy"
                   containerClassName="absolute inset-0"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               </div>
@@ -133,7 +133,7 @@ export default function Services() {
                   alt={services.items[4].title}
                   loading="lazy"
                   containerClassName="absolute inset-0"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               </div>
