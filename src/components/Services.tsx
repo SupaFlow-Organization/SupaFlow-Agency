@@ -13,8 +13,10 @@ export default function Services() {
           <span className="font-mono text-[0.65rem] sm:text-xs text-gray-500 uppercase tracking-[0.1em]">
             {services.label}
           </span>
-          <h2 className="text-[clamp(2rem,5vw,4.5rem)] font-semibold tracking-tight mt-3 sm:mt-4">
-            {services.heading}
+          <h2 className="text-[clamp(2rem,5vw,4.5rem)] font-semibold tracking-tight leading-[1.05] mt-3 sm:mt-4">
+            {services.heading.split('before')[0]}
+            <br className="hidden md:block" />
+            before{services.heading.split('before')[1]}
           </h2>
         </Reveal>
 

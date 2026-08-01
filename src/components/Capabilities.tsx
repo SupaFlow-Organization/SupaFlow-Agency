@@ -13,6 +13,9 @@ export default function Capabilities() {
           <Reveal className="mb-8 sm:mb-12">
             <span className="font-mono text-[0.65rem] sm:text-xs text-gray-500 uppercase tracking-[0.1em]">{capabilities.label}</span>
             <h2 className="text-xl sm:text-2xl font-semibold tracking-tight mt-3 sm:mt-4">{capabilities.heading}</h2>
+            {capabilities.description && (
+              <p className="text-sm sm:text-base text-gray-600 mt-3 max-w-xl leading-relaxed">{capabilities.description}</p>
+            )}
           </Reveal>
           <StaggerReveal className="flex flex-wrap gap-2 sm:gap-3">
             {capabilities.techStack.map((tech) => (

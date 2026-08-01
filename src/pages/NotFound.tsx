@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
-import { springTransition } from '@/lib/motion';
+import { springTransition, Magnetic } from '@/lib/motion';
 import { Button } from '@/components/ui/button';
 import CustomCursor from '@/components/CustomCursor';
 import { useCustomCursor } from '@/hooks/useInteractions';
@@ -35,14 +35,18 @@ export default function NotFound() {
           <p className="text-gray-600 leading-relaxed text-base sm:text-lg mt-4 mb-8">
             The page you're looking for doesn't exist or has been moved. Let's get you back on track.
           </p>
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} transition={springTransition}>
-            <Button asChild>
-              <Link to="/">
-                <Icon icon="solar:arrow-left-linear" width={14} />
-                Back to home
-              </Link>
-            </Button>
-          </motion.div>
+          <div className="block w-fit mx-auto">
+            <Magnetic strength={0.15}>
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} transition={springTransition}>
+                <Button asChild>
+                  <Link to="/">
+                    <Icon icon="solar:arrow-left-linear" width={14} />
+                    Back to home
+                  </Link>
+                </Button>
+              </motion.div>
+            </Magnetic>
+          </div>
         </motion.div>
       </div>
     </div>

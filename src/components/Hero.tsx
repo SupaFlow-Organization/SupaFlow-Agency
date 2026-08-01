@@ -29,7 +29,7 @@ export default function Hero() {
   const { hero, brand } = content;
 
   return (
-    <section aria-labelledby="hero-heading" className="relative min-h-[100dvh] flex flex-col justify-center pt-28 sm:pt-32 pb-16 sm:pb-20 overflow-hidden px-5 sm:px-8 lg:px-12">
+    <section aria-labelledby="hero-heading" className="relative min-h-[calc(100dvh-50px)] flex flex-col justify-center pt-28 sm:pt-32 pb-16 sm:pb-20 overflow-hidden px-5 sm:px-8 lg:px-12">
       <motion.div
         className="absolute top-[-20%] right-0 w-[70vw] h-[70vh] stripe-gradient opacity-60 blur-[60px] pointer-events-none -z-10 rotate-12 transform-gpu"
         initial={{ scale: 0.8, opacity: 0 }}
@@ -39,7 +39,7 @@ export default function Hero() {
 
       <div className="max-w-[82.5rem] mx-auto w-full relative z-10">
         <motion.div
-          className="flex flex-col gap-5 sm:gap-6 items-start"
+          className="flex flex-col gap-5 sm:gap-6 items-start pt-12 md:pt-20"
           variants={container}
           initial="hidden"
           animate="visible"
@@ -51,36 +51,35 @@ export default function Hero() {
           <motion.h1
             id="hero-heading"
             variants={item}
-            className="text-[clamp(2.5rem,8.5vw,8.5rem)] leading-[0.95] font-semibold tracking-tighter text-ink max-w-[15ch]"
+            className="text-[clamp(2.5rem,8.5vw,8.5rem)] leading-[0.95] font-semibold tracking-tighter text-ink max-w-[18ch]"
           >
-            {hero.heading}{' '}
-            <span className="text-gradient">{hero.headingHighlight}</span> {hero.headingSuffix}
+            {hero.heading}
+            <br />
+            <span className="text-gradient">{hero.headingHighlight}</span>
+            {hero.headingSuffix ? ` ${hero.headingSuffix}` : ''}
           </motion.h1>
 
-          <motion.p variants={item} className="text-gray-600 font-normal leading-relaxed text-base sm:text-lg max-w-2xl">
+          <motion.p variants={item} className="text-gray-600 font-normal leading-relaxed text-base sm:text-lg max-w-2xl mt-4 sm:mt-6">
             {hero.description}
           </motion.p>
 
           <motion.div variants={item} className="flex flex-wrap gap-3 sm:gap-4 pt-4 items-center">
             <Magnetic strength={0.15}>
-              <Button asChild>
-                <motion.a
-                  href="#work"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.97 }}
-                  transition={springTransition}
-                >
-                  {hero.cta}{' '}
-                  <Icon icon="solar:arrow-right-up-linear" width={16} />
-                </motion.a>
-              </Button>
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} transition={springTransition}>
+                <Button asChild>
+                  <Link to="/book-a-call">
+                    {hero.ctaSecondary} <Icon icon="solar:arrow-right-up-linear" width={16} />
+                  </Link>
+                </Button>
+              </motion.div>
             </Magnetic>
+
             <Magnetic strength={0.15}>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} transition={springTransition}>
-                <Button variant="secondary" asChild>
-                  <Link to="/book">
-                    {hero.ctaSecondary}
-                  </Link>
+                <Button variant="secondary" className="ring-black/20" asChild>
+                  <a href="#work">
+                    {hero.cta}
+                  </a>
                 </Button>
               </motion.div>
             </Magnetic>

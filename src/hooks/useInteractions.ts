@@ -49,6 +49,16 @@ export function useCustomCursor() {
         },
         { duration: 200, fill: 'forwards', easing: 'ease-out' }
       );
+
+      const target = document.elementFromPoint(e.clientX, e.clientY);
+      if (target) {
+        const isDark = target.closest('.dark-section, .bg-ink, [class*="bg-ink"], [class*="bg-black"], [class*="bg-zinc-900"]');
+        if (isDark) {
+          document.body.classList.add('cursor-light');
+        } else {
+          document.body.classList.remove('cursor-light');
+        }
+      }
     };
 
     window.addEventListener('mousemove', handleMouseMove);

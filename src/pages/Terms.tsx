@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
-import { springTransition } from '@/lib/motion';
+import { springTransition, Magnetic } from '@/lib/motion';
 import { Button } from '@/components/ui/button';
 import CustomCursor from '@/components/CustomCursor';
 import Footer from '@/components/Footer';
@@ -19,12 +19,16 @@ export default function Terms() {
         <Link to="/" className="text-xl font-semibold tracking-tighter text-ink hover:scale-105 transition-transform">
           {brand.name}
         </Link>
-        <Button variant="secondary" asChild>
-          <Link to="/" className="hover:scale-105 transition-transform">
-            <Icon icon="solar:arrow-left-linear" width={14} />
-            Back to home
-          </Link>
-        </Button>
+        <Magnetic strength={0.15}>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} transition={springTransition}>
+            <Button variant="secondary" asChild className="rounded-full">
+              <Link to="/">
+                <Icon icon="solar:arrow-left-linear" width={14} />
+                Back to home
+              </Link>
+            </Button>
+          </motion.div>
+        </Magnetic>
       </nav>
 
       <div className="pt-28 sm:pt-32 pb-16 sm:pb-20 px-5 sm:px-8 lg:px-12">
