@@ -22,25 +22,6 @@ export default function Preloader({ onComplete }: PreloaderProps) {
       ...content.process.steps.map((step) => step.image).filter(Boolean),
       // Testimonial avatars
       ...content.testimonials.list.map((item) => item.avatar).filter(Boolean),
-      // Case Study specific images
-      '/images/arc/arc-1.png',
-      '/images/arc/arc-2.png',
-      '/images/arc/arc-3.png',
-      '/images/elevate/elevate-1.png',
-      '/images/elevate/elevate-2.png',
-      '/images/elevate/eleveta-3.png',
-      '/images/nexus/nexus-1.png',
-      '/images/nexus/nexus-2.png',
-      '/images/nexus/nexus-3.png',
-      '/images/elana/ev-1.png',
-      '/images/elana/ev-2.png',
-      '/images/elana/ev-3.png',
-      '/images/verdae/verdae-1.png',
-      '/images/verdae/verdae-2.png',
-      '/images/verdae/verdae-3.png',
-      '/images/luckycharm/lucky-1.png',
-      '/images/luckycharm/lucky-2.png',
-      '/images/luckycharm/lucky-3.png',
     ];
 
     // Deduplicate
