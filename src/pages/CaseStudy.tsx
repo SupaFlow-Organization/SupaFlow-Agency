@@ -277,7 +277,6 @@ export default function CaseStudy() {
                           <ImageWithSkeleton
                             src={other.image}
                             alt={other.title}
-                            loading="lazy"
                             containerClassName="h-full w-full"
                             className="h-full w-full object-cover object-top"
                             style={{

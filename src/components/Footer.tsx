@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="bg-ink pt-16 sm:pt-20 border-t border-white/5 relative overflow-hidden px-5 sm:px-8 lg:px-12">
       <StaggerReveal className="max-w-[82.5rem] mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-16 sm:mb-20 relative z-10">
         <StaggerItem className="col-span-2 sm:col-span-2 lg:col-span-1">
-          <div className="text-2xl font-semibold tracking-tighter mb-3 sm:mb-4 text-white">{brand.name}</div>
+          <div className="text-2xl font-semibold tracking-tighter mb-3 sm:mb-4 text-white">{brand.name}<span className="text-pink-500">.</span></div>
           <p className="text-sm text-gray-400 max-w-[15rem] mb-6">
             We launch websites in days.<br />Not months.
           </p>

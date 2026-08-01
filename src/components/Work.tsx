@@ -51,7 +51,6 @@ export default function Work() {
                           <ImageWithSkeleton
                             src={project.image}
                             alt={project.title}
-                            loading="lazy"
                             containerClassName="h-full w-full"
                             className={`h-full w-full ${imgFit === 'contain' ? 'object-contain p-2.5 sm:p-3.5' : 'object-cover object-top'}`}
                             style={{

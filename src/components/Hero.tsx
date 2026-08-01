@@ -25,7 +25,7 @@ const clientItem = {
   visible: { opacity: 1, y: 0, transition: { ...springTransition, stiffness: 80 } },
 };
 
-export default function Hero() {
+export default function Hero({ isLoaded = true }: { isLoaded?: boolean }) {
   const { hero, brand } = content;
 
   return (
@@ -33,7 +33,7 @@ export default function Hero() {
       <motion.div
         className="absolute top-[-20%] right-0 w-[70vw] h-[70vh] stripe-gradient opacity-60 blur-[60px] pointer-events-none -z-10 rotate-12 transform-gpu"
         initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 0.6 }}
+        animate={isLoaded ? { scale: 1, opacity: 0.6 } : { scale: 0.8, opacity: 0 }}
         transition={{ duration: 1.5, ease: 'easeOut' }}
       />
 
@@ -42,7 +42,7 @@ export default function Hero() {
           className="flex flex-col gap-5 sm:gap-6 items-start pt-12 md:pt-20"
           variants={container}
           initial="hidden"
-          animate="visible"
+          animate={isLoaded ? "visible" : "hidden"}
         >
           <motion.span variants={item} className="font-mono text-[0.65rem] sm:text-xs text-gray-500 uppercase tracking-[0.1em]">
             {brand.tagline}
@@ -89,7 +89,7 @@ export default function Hero() {
         <motion.div
           className="mt-20 sm:mt-32 border-t border-black/5 pt-6 sm:pt-8"
           initial="hidden"
-          animate="visible"
+          animate={isLoaded ? "visible" : "hidden"}
           variants={{
             hidden: {},
             visible: { transition: { staggerChildren: 0.06, delayChildren: 1.0 } },

@@ -1,6 +1,8 @@
-import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import GridOverlay from './components/GridOverlay';
 import CustomCursor from './components/CustomCursor';
+import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 
@@ -22,7 +24,16 @@ import {
 } from './hooks/useInteractions';
 import { useGlobalImagePrefetch } from './lib/prefetch';
 
+let hasLoadedInCurrentSession = false;
+
 export default function App() {
+  const [isLoading, setIsLoading] = useState(() => !hasLoadedInCurrentSession);
+
+  const handlePreloaderComplete = () => {
+    hasLoadedInCurrentSession = true;
+    setIsLoading(false);
+  };
+
   const navRef = useStickyNav();
 
   useLenisScroll();
@@ -32,6 +43,9 @@ export default function App() {
 
   return (
     <div>
+      <AnimatePresence mode="wait">
+        {isLoading && <Preloader key="preloader" onComplete={handlePreloaderComplete} />}
+      </AnimatePresence>
       <a href="#main-content" className="skip-link">
         Skip to main content
       </a>
@@ -39,7 +53,7 @@ export default function App() {
       <CustomCursor />
       <Navbar navRef={navRef} />
       <main id="main-content">
-        <Hero />
+        <Hero isLoaded={!isLoading} />
 
         <Marquee />
         <Services />

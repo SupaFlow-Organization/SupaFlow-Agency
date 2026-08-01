@@ -55,7 +55,7 @@ export default function Navbar({ navRef }: NavbarProps) {
           to="/"
           className="text-xl font-semibold tracking-tighter z-10 text-ink hover:scale-105 transition-transform"
         >
-          {brand.name}
+          {brand.name}<span className="text-pink-500">.</span>
         </Link>
 
         {!isMobile && (

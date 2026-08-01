@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "SupaFlow.",
+    "name": "SupaFlow",
     "tagline": "// SUPAFLOW AGENCY EST. 2026",
     "email": "// HELLO@SUPAFLOW.IN",
     "copyright": "// DEVELOPED REMOTELY • 2026 © SUPAFLOW",
@@ -75,7 +75,7 @@
         "title": "UI/UX Design",
         "description": "Interfaces that reduce friction, increase confidence, and turn visitors into customers.",
         "icon": "solar:pen-new-square-linear",
-        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/105202b3-12e5-413b-a6ed-e7f1ae9e0170_3840w.jpg"
+        "image": "/images/services-ui-optimized.jpg"
       },
       {
         "title": "Motion & Interaction",
@@ -115,7 +115,7 @@
         "title": "Day 4 Polish",
         "description": "Every animation. Every hover state. Every interaction refined. We sweat the small details so your visitors feel the quality before they read a word.",
         "hoverColor": "group-hover:text-brand-blue",
-        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/c0965778-887c-43f5-ab90-96714fe9b008_original.png"
+        "image": "/images/process-polish-optimized.jpg"
       },
       {
         "number": "05",

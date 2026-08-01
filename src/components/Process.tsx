@@ -34,7 +34,6 @@ function ProcessCard({ step, index }: { step: typeof steps[0]; index: number }) 
             <ImageWithSkeleton
               src={step.image}
               alt={step.title}
-              loading="lazy"
               containerClassName="absolute inset-0"
               className="w-full h-full object-cover mix-blend-multiply"
             />

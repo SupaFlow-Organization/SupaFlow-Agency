@@ -36,7 +36,6 @@ export default function Services() {
                   <ImageWithSkeleton
                     src={services.items[0].image}
                     alt={services.items[0].title}
-                    loading="lazy"
                     containerClassName="absolute inset-0"
                     className="w-full h-full object-cover"
                   />
@@ -60,7 +59,6 @@ export default function Services() {
                   <ImageWithSkeleton
                     src={services.items[1].image}
                     alt={services.items[1].title}
-                    loading="lazy"
                     containerClassName="absolute inset-0"
                     className="w-full h-full object-cover"
                   />
@@ -89,7 +87,6 @@ export default function Services() {
                     <ImageWithSkeleton
                       src={services.items[2].image}
                       alt={services.items[2].title}
-                      loading="lazy"
                       containerClassName="absolute inset-0"
                       className="w-full h-full object-cover object-left-top group-hover:scale-105 transition-transform duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)]"
                     />
@@ -105,7 +102,6 @@ export default function Services() {
                 <ImageWithSkeleton
                   src={services.items[3].image}
                   alt={services.items[3].title}
-                  loading="lazy"
                   containerClassName="absolute inset-0"
                   className="w-full h-full object-cover"
                 />
@@ -133,7 +129,6 @@ export default function Services() {
                 <ImageWithSkeleton
                   src={services.items[4].image}
                   alt={services.items[4].title}
-                  loading="lazy"
                   containerClassName="absolute inset-0"
                   className="w-full h-full object-cover"
                 />
