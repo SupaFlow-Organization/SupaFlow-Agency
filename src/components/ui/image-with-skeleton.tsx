@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { useEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { cn } from '@/lib/utils';
 import { Skeleton } from '@/components/ui/skeleton';
 
@@ -25,23 +25,24 @@ export function ImageWithSkeleton({
   const [error, setError] = useState(false);
   const [skeletonVisible, setSkeletonVisible] = useState(true);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setLoaded(false);
     setError(false);
     setSkeletonVisible(true);
   }, [src]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const img = imgRef.current;
     if (img?.complete && img.naturalWidth > 0) {
       setLoaded(true);
+      setSkeletonVisible(false);
     }
   }, [src]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (loaded || error) {
-      const timer = setTimeout(() => setSkeletonVisible(false), 600);
-      return () => clearTimeout(timer);
+      // Hide skeleton instantly if preloaded, or brief fade if newly loaded
+      setSkeletonVisible(false);
     }
   }, [loaded, error]);
 
@@ -64,7 +65,7 @@ export function ImageWithSkeleton({
         alt={alt}
         className={cn(
           className,
-          'transition-opacity duration-600 ease-[cubic-bezier(0.16,1,0.3,1)]',
+          'transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]',
           !loaded ? 'opacity-0' : 'opacity-100'
         )}
         onLoad={(event) => {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
 import Cal, { getCalApi } from '@calcom/embed-react';
-import { springTransition } from '@/lib/motion';
+import { springTransition, Magnetic } from '@/lib/motion';
 import { Button } from '@/components/ui/button';
 import CustomCursor from '@/components/CustomCursor';
 import Footer from '@/components/Footer';
@@ -28,12 +28,16 @@ export default function Book() {
         <Link to="/" className="text-xl font-semibold tracking-tighter text-ink hover:scale-105 transition-transform">
           {brand.name}
         </Link>
-        <Button variant="secondary" asChild>
-          <Link to="/" className="hover:scale-105 transition-transform">
-            <Icon icon="solar:arrow-left-linear" width={14} />
-            {book.backButton}
-          </Link>
-        </Button>
+        <Magnetic strength={0.15}>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} transition={springTransition}>
+            <Button variant="secondary" asChild className="rounded-full">
+              <Link to="/">
+                <Icon icon="solar:arrow-left-linear" width={14} />
+                {book.backButton}
+              </Link>
+            </Button>
+          </motion.div>
+        </Magnetic>
       </nav>
 
       <div className="pt-28 sm:pt-32 pb-16 sm:pb-20 px-5 sm:px-8 lg:px-12">
@@ -59,12 +63,13 @@ export default function Book() {
             initial={{ opacity: 0, y: 32 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...springTransition, delay: 0.15 }}
-            className="w-full min-h-[600px] rounded-[1.25rem] border border-black/[0.06] bg-white overflow-hidden cursor-hide-zone"
+            className="w-full min-h-[700px] cursor-hide-zone"
           >
             <Cal
               namespace="30min"
               calLink="supaflow-works/30min"
-              style={{ width: '100%', height: '100%', overflow: 'scroll' }}
+              className="w-full"
+              style={{ width: '100%', height: '100%', minHeight: '700px', overflow: 'scroll' }}
               config={{ layout: 'month_view', useSlotsViewOnSmallScreen: 'true', theme: 'light' }}
             />
           </motion.div>

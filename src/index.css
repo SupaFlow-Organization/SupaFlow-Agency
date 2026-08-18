@@ -93,7 +93,6 @@ body {
 :focus-visible {
   outline: 2px solid var(--color-brand-blue);
   outline-offset: 2px;
-  border-radius: 4px;
 }
 
 /* Skip to content */
@@ -141,7 +140,7 @@ body {
   left: 0;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: 9999;
+  z-index: 999999 !important;
   opacity: 1;
   transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1);
   pointer-events: none;
@@ -170,6 +169,15 @@ body {
 .cursor-hidden .cursor-dot,
 .cursor-hidden .cursor-outline {
   opacity: 0;
+}
+
+.cursor-light .cursor-dot {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.cursor-light .cursor-outline {
+  border-color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .cursor-hide-zone {

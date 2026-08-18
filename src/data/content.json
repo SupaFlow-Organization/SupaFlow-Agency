@@ -1,158 +1,222 @@
 {
   "brand": {
-    "name": "SupaFlow.",
-    "tagline": "// SUPAFLOW AGENCY — EST. 2024",
-    "email": "// SUPAFLOW.WORKS@GMAIL.COM",
-    "copyright": "// DEVELOPED REMOTELY • 2024 © SUPAFLOW",
-    "footerTagline": "Elite digital agency crafting premium web experiences.",
+    "name": "SupaFlow",
+    "tagline": "// SUPAFLOW AGENCY EST. 2026",
+    "email": "// HELLO@SUPAFLOW.IN",
+    "copyright": "// DEVELOPED REMOTELY • 2026 © SUPAFLOW",
+    "footerTagline": "We launch websites in days. Not months.",
     "footerWatermark": "SUPAFLOW"
   },
   "navbar": {
     "cta": "Start a project",
     "menuItems": [
       {
-        "href": "#services",
+        "href": "/#services",
         "label": "Services",
         "num": "01"
       },
       {
-        "href": "#process",
+        "href": "/#process",
         "label": "Process",
         "num": "02"
       },
       {
-        "href": "#work",
+        "href": "/#work",
         "label": "Work",
         "num": "03"
       }
     ]
   },
   "hero": {
-    "heading": "Premium websites &",
-    "headingHighlight": "digital experiences",
-    "headingSuffix": "for ambitious brands.",
-    "description": "Elite digital agency crafting award-winning websites, highly interactive web applications, and visually stunning brand identities.",
+    "heading": "Launch in days.",
+    "headingHighlight": "Start growing sooner.",
+    "headingSuffix": "",
+    "description": "Most agencies spend months planning, revising, and delaying. SupaFlow delivers conversion-focused websites in as little as five days without compromising strategy, design, or quality so your business starts building trust from day one.",
     "cta": "See our work",
-    "ctaSecondary": "Book intro call",
-    "clientsLabel": "Trusted by innovative teams",
+    "ctaSecondary": "Book a free strategy call",
+    "clientsLabel": "Trusted by ambitious businesses",
     "clients": [
-      "Nova",
-      "Pack2go",
-      "Nexus Commerce",
-      "Verta Aesthetics",
-      "Horizon Studio"
+      "ARC",
+      "Elevate",
+      "Nexus AI",
+      "Luma Studio",
+      "VERDAE",
+      "Luckycharm"
     ]
   },
   "marquee": [
-    "PREMIUM WEBSITES",
-    "CREATIVE DEVELOPMENT",
-    "BRAND IDENTITIES",
-    "MOTION DESIGN",
-    "E-COMMERCE",
-    "WEBGL EXPERIENCES"
+    "LAUNCH IN 5 DAYS",
+    "FIXED PROJECT PRICING",
+    "YOU OWN EVERYTHING",
+    "100+ LAUNCHES",
+    "CONVERSION-FOCUSED",
+    "MOMENTUM WINS"
   ],
   "services": {
-    "label": "01 / Capabilities",
-    "heading": "Built with intent.",
+    "label": "01 / What We Build",
+    "heading": "Designed to earn trust before your first conversation.",
     "items": [
       {
-        "title": "Premium Websites",
-        "description": "Bespoke websites engineered for stunning aesthetics, buttery smooth animations, and high conversion rates.",
+        "title": "Conversion-First Websites",
+        "description": "Every layout, headline, and interaction is designed to make visitors confident in your business before they ever contact you.",
         "image": "https://cdn.dribbble.com/userupload/42956633/file/original-622d96ed13d83e30b7a4f2debd60d736.png?resize=2048x1536&vertical=center"
       },
       {
-        "title": "Creative Development",
-        "description": "Cutting-edge web technologies and interaction design.",
+        "title": "Scalable Web Applications",
+        "description": "Complex platforms built without cutting corners because your business shouldn't have to rebuild in 12 months.",
         "image": "https://cdn.dribbble.com/userupload/47738578/file/203d09173e57b55d91c6b6a9bbb06a55.png?resize=2048x1536&vertical=center"
       },
       {
-        "title": "Digital Platforms",
-        "description": "Scalable web apps with uncompromising design quality.",
+        "title": "Brand Identity Systems",
+        "description": "Visual language that signals credibility so the right customers choose you before competitors get a chance.",
         "image": "https://cdn.dribbble.com/userupload/14919024/file/original-94c0142c043b25151bef5ce291fc0e1d.jpg?resize=1504x1128&vertical=center"
       },
       {
         "title": "UI/UX Design",
-        "description": "Pixel-perfect interfaces.",
+        "description": "Interfaces that reduce friction, increase confidence, and turn visitors into customers.",
         "icon": "solar:pen-new-square-linear",
-        "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/105202b3-12e5-413b-a6ed-e7f1ae9e0170_3840w.jpg"
+        "image": "/images/services-ui-optimized.jpg"
       },
       {
-        "title": "Motion Design",
-        "description": "Fluid micro-interactions.",
+        "title": "Motion & Interaction",
+        "description": "Every animation earns its place, reinforcing trust, guiding attention, and making your product feel premium.",
         "icon": "solar:play-circle-linear",
         "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/bffbf215-cf4b-4096-bef7-a1980a0ae243_3840w.webp"
       }
     ]
   },
   "process": {
-    "label": "02 / Methodology",
-    "heading": "From zero to launch.",
+    "label": "02 / How We Work",
+    "heading": "Zero to launch. In five days.",
     "steps": [
       {
         "number": "01",
-        "title": "Strategy",
-        "description": "Deep dive into brand identity, art direction, and digital strategy. No templates, just bespoke planning.",
+        "title": "Day 1 Understand",
+        "description": "We go deep on your business. Not just what you sell, why customers choose you, what makes you different, and what the website needs to do from day one.",
         "hoverColor": "group-hover:text-brand-orange",
         "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/9bec02ad-7636-45cf-998f-29c70770cf44_3840w.webp"
       },
       {
         "number": "02",
-        "title": "Design",
-        "description": "Wireframing, establishing premium design systems, and creating high-fidelity prototypes focused on aesthetics.",
+        "title": "Day 2 Design",
+        "description": "Before colours, we think about communication. Visitors don't buy beautiful websites, they buy confidence. Every layout decision starts there.",
         "hoverColor": "group-hover:text-brand-pink",
         "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4d9d4218-e500-4528-97d0-07e520d1b8f4_3840w.webp"
       },
       {
         "number": "03",
-        "title": "Engineering",
-        "description": "Creative development mixed with strict performance goals. React, WebGL, and buttery smooth animations.",
+        "title": "Day 3 Build",
+        "description": "Responsive. Fast. Optimised. Our engineers bring the approved design to life with clean, production-ready code built to scale.",
         "hoverColor": "group-hover:text-brand-purple",
         "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2bd49270-025a-44cb-b3c5-a32949c8b8c9_3840w.webp"
       },
       {
         "number": "04",
-        "title": "Delivery",
-        "description": "Rigorous QA across all devices, performance optimization, and hand-off of a pixel-perfect digital experience.",
+        "title": "Day 4 Polish",
+        "description": "Every animation. Every hover state. Every interaction refined. We sweat the small details so your visitors feel the quality before they read a word.",
         "hoverColor": "group-hover:text-brand-blue",
+        "image": "/images/process-polish-optimized.jpg"
+      },
+      {
+        "number": "05",
+        "title": "Day 5 Launch",
+        "description": "Analytics connected. SEO fundamentals in place. Everything tested, everything yours. Done and ready to earn trust from the moment it goes live.",
+        "hoverColor": "group-hover:text-brand-orange",
         "image": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/eec7d590-a415-4f84-95c7-2bd03be48662_3840w.jpg"
       }
     ]
   },
   "work": {
     "label": "03 / Selected Work",
-    "heading": "Proof of concept.",
+    "heading": "Proof of work.",
     "featured": [
       {
-        "category": "Fintech",
-        "title": "Nova Studio",
+        "id": "1",
+        "category": "Brand Identity, Web Design, Development",
+        "tags": [
+          "Brand Identity",
+          "Web Design",
+          "Development"
+        ],
+        "title": "ARC",
+        "description": "Hear less. Feel more. Hi-Res wireless audio with adaptive noise cancellation engineered for uncompromising sound.",
         "offset": false,
-        "image": "https://cdn.dribbble.com/userupload/42604910/file/original-4d2b85eacd2de087d07faaa270244208.png?resize=1504x1128&vertical=center"
+        "image": "/images/arc/arc-1.png",
+        "imageFit": "contain",
+        "bgColor": "bg-black"
       },
       {
-        "category": "SaaS",
-        "title": "Pack2go Booking",
+        "id": "2",
+        "category": "Web Design, Development",
+        "tags": [
+          "Web Design",
+          "Development"
+        ],
+        "title": "Elevate",
+        "description": "Bring architectural projects to life with simple, elegant design spaces that put your work front and center.",
         "offset": true,
-        "image": "https://cdn.dribbble.com/userupload/44343864/file/e0d559283d6c330401e27002ea95f2ec.jpg?resize=1200x675&vertical=center"
-      }
-    ],
-    "list": [
-      {
-        "title": "Nexus Commerce",
-        "type": "Luxury E-com"
+        "image": "/images/elevate/elevate-1.png",
+        "bgColor": "bg-[#0B0F17]"
       },
       {
-        "title": "Verta Aesthetics",
-        "type": "Brand Identity"
+        "id": "3",
+        "category": "Web Design, Development",
+        "tags": [
+          "Web Design",
+          "Development"
+        ],
+        "title": "Nexus AI",
+        "description": "Autonomous AI systems that eliminate repetitive operations, compress decision cycles, and compound capability over time.",
+        "offset": false,
+        "image": "/images/nexus/nexus-1.png",
+        "bgColor": "bg-black"
       },
       {
-        "title": "Horizon Studio",
-        "type": "Portfolio"
+        "id": "4",
+        "category": "Brand Identity, Web Design, Development",
+        "tags": [
+          "Brand Identity",
+          "Web Design",
+          "Development"
+        ],
+        "title": "Luma Studio",
+        "description": "Crafting authentic moments and visual stories blending clean minimalism with soft emotion—composed with intention.",
+        "offset": true,
+        "image": "/images/elana/ev-1.png",
+        "bgColor": "bg-[#E8E7E5]"
+      },
+      {
+        "id": "5",
+        "category": "Brand Identity, Web Design",
+        "tags": [
+          "Brand Identity",
+          "Web Design"
+        ],
+        "title": "VERDAE",
+        "description": "Sustainable botanical skincare formulation merging pure organic chemistry with serene luxury aesthetics.",
+        "offset": false,
+        "image": "/images/verdae/verdae-1.png",
+        "bgColor": "bg-[#1C3022]"
+      },
+      {
+        "id": "6",
+        "category": "Web Design, Development",
+        "tags": [
+          "Web Design",
+          "Development"
+        ],
+        "title": "Luckycharm",
+        "description": "Next-generation interactive platform empowering creators with real-time digital workspace tools and fluid motion UI.",
+        "offset": true,
+        "image": "/images/luckycharm/lucky-1.png",
+        "bgColor": "bg-[#FAF8F5]"
       }
     ]
   },
   "capabilities": {
-    "label": "04 / Tech Stack",
-    "heading": "Modern primitive tools.",
+    "label": "04 / Technology",
+    "heading": "Technology your customers never have to think about.",
+    "description": "We use Next.js, React and Vercel because they're reliable, scalable and fast, not because they're trendy. The best technology is the technology your business benefits from invisibly.",
     "techStack": [
       {
         "icon": "logos:nextjs-icon",
@@ -215,15 +279,58 @@
       }
     ]
   },
-  "testimonial": {
-    "quote": "SupaFlow doesn't just build websites; they craft digital masterpieces. Their obsessive attention to aesthetics, typography, and buttery smooth animations elevated our brand identity to a whole new level.",
-    "author": "David Thompson",
-    "role": "Creative Director, Nova Studio"
+  "testimonials": {
+    "tag": "Track Record",
+    "heading": "Real stories. Real fears. Exceptional outcomes.",
+    "description": "One testimonial reads like a favor.\nA track record built on real experiences speaks for itself.",
+    "list": [
+      {
+        "id": "1",
+        "quote": "We expected months of revisions because that's what every previous agency had put us through. Instead, the first concept was incredibly close to what we imagined. Five days later we launched, and enquiries started the same week. They don't just build websites; they build growth engines.",
+        "author": "Chloe Bennett",
+        "role": "Creative Director",
+        "company": "ARC",
+        "metric": "+140% Leads",
+        "avatar": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/b061f490-e132-4efb-8def-19b63c349152_1600w.png",
+        "accentColor": "#FF6B35"
+      },
+      {
+        "id": "2",
+        "quote": "We were nervous about the 5-day delivery claim. Past freelancers always ghosted or missed deadlines. But SupaFlow's process was refreshingly clear, we knew exactly what was happening at every stage and launched ahead of schedule.",
+        "author": "Julian Sterling",
+        "role": "Head of Product",
+        "company": "Elevate",
+        "metric": "Zero Delays",
+        "avatar": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/c62627bc-d916-4071-90de-5b3aa885cbf0_1600w.jpg",
+        "accentColor": "#FF1F8F"
+      },
+      {
+        "id": "3",
+        "quote": "Our old site looked basic and didn't reflect our high-ticket service pricing. We worried a fast turn-around wouldn't feel luxury. It finally looks like the premium brand we always believed we were. Our conversion rate speaks for itself.",
+        "author": "Sophia Al-Mansoor",
+        "role": "Founder & CEO",
+        "company": "VERDAE",
+        "metric": "+210% Conv. Rate",
+        "avatar": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/7a1822f8-a919-4c21-8c72-c2b907f785f5_1600w.jpg",
+        "accentColor": "#7B2CBF"
+      },
+      {
+        "id": "4",
+        "quote": "We had complex AI demo requirements and tight deadlines before our seed round pitch. Most agencies asked for 12 weeks. SupaFlow delivered a world-class, motion-rich web app in 5 days flat. Investors were blown away.",
+        "author": "Devon Thorne",
+        "role": "Co-Founder",
+        "company": "Nexus AI",
+        "metric": "$2.4M Seed Raised",
+        "avatar": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/25df7579-09f7-4c8c-bb39-18a974a980d0_1600w.webp",
+        "accentColor": "#3A86FF"
+      }
+    ]
   },
   "cta": {
-    "heading": "Got an ambitious project?",
-    "description": "Let's talk. We respond within 24 hours. No fluff, just straight to award-winning design and premium digital experiences.",
-    "button": "Book a call"
+    "heading": "Your next customer\nwon't wait three months.",
+    "description": "Let's launch a website your business is proud to share in as little as five days. Fixed pricing. No delays. You own everything.",
+    "button": "Book your launch call",
+    "secondaryButton": "Mail us"
   },
   "footer": {
     "services": [
@@ -247,33 +354,40 @@
     "company": [
       {
         "label": "Work",
-        "href": "#work"
+        "href": "/#work",
+        "hoverColor": "hover:text-brand-orange"
       },
       {
         "label": "Process",
-        "href": "#process"
+        "href": "/#process",
+        "hoverColor": "hover:text-brand-pink"
       },
       {
         "label": "About",
-        "href": "#"
+        "href": "/#",
+        "hoverColor": "hover:text-brand-purple"
       },
       {
         "label": "Contact",
-        "href": "/book"
+        "href": "/book-a-call",
+        "hoverColor": "hover:text-brand-blue"
       }
     ],
     "social": [
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/supaflow.works"
+        "url": "https://www.instagram.com/supaflow.studio/",
+        "hoverColor": "hover:text-brand-pink"
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/company/supaflow"
+        "url": "https://www.linkedin.com/in/supa-flow-477a72419/",
+        "hoverColor": "hover:text-brand-blue"
       },
       {
-        "label": "Twitter",
-        "url": "https://x.com/supaflowworks"
+        "label": "X",
+        "url": "https://x.com/SupaFlowagency",
+        "hoverColor": "hover:text-brand-orange"
       }
     ],
     "legal": [
@@ -282,15 +396,15 @@
     ]
   },
   "book": {
-    "label": "// BOOK A CALL",
-    "heading": "Let's build something remarkable together.",
-    "description": "Pick a time that works for you. We'll discuss your project goals, timeline, and how SupaFlow can bring your vision to life.",
+    "label": "// LAUNCH CALL",
+    "heading": "Let's move fast.",
+    "description": "Pick a time below. We'll discuss your goals, skip the months of agency delays, and map out your 5-day launch.",
     "backButton": "Back to home"
   },
   "privacy": {
     "label": "// LEGAL",
     "heading": "Privacy Policy",
-    "lastUpdated": "Last updated: December 15, 2025",
+    "lastUpdated": "Last updated: July 30, 2026",
     "intro": "At SupaFlow, we take your privacy seriously. This policy outlines how we collect, use, store, and protect your personal information when you interact with our services.",
     "sections": [
       {
@@ -307,11 +421,11 @@
       },
       {
         "title": "4. Third-Party Services",
-        "content": "We use the following third-party services in the operation of our business:\n\n- Cal.com — Scheduling and calendar management\n- Vercel — Website hosting and deployment\n- Supabase — Database and file storage\n- Google Analytics — Anonymous website usage analytics\n\nEach third-party provider operates under their own privacy policy. We select partners who demonstrate strong data protection practices and GDPR compliance."
+        "content": "We use the following third-party services in the operation of our business:\n\n- Cal.com - Scheduling and calendar management\n- Vercel - Website hosting and deployment\n- Supabase - Database and file storage\n- Google Analytics - Anonymous website usage analytics\n\nEach third-party provider operates under their own privacy policy. We select partners who demonstrate strong data protection practices and GDPR compliance."
       },
       {
         "title": "5. Your Rights",
-        "content": "Depending on your jurisdiction, you may have the following rights regarding your personal data:\n\n- Access: Request a copy of the personal data we hold about you\n- Rectification: Request correction of inaccurate or incomplete data\n- Erasure: Request deletion of your personal data (\"right to be forgotten\")\n- Portability: Request transfer of your data in a machine-readable format\n- Objection: Object to processing based on legitimate interests\n- Restriction: Request limitation of processing in certain circumstances\n\nTo exercise any of these rights, contact us at supaflow.works@gmail.com. We will respond within 30 days."
+        "content": "Depending on your jurisdiction, you may have the following rights regarding your personal data:\n\n- Access: Request a copy of the personal data we hold about you\n- Rectification: Request correction of inaccurate or incomplete data\n- Erasure: Request deletion of your personal data (\"right to be forgotten\")\n- Portability: Request transfer of your data in a machine-readable format\n- Objection: Object to processing based on legitimate interests\n- Restriction: Request limitation of processing in certain circumstances\n\nTo exercise any of these rights, contact us at hello@supaflow.in. We will respond within 7 working days."
       },
       {
         "title": "6. Cookies",
@@ -327,14 +441,14 @@
       },
       {
         "title": "9. Contact",
-        "content": "For privacy-related inquiries, data requests, or concerns:\n\nEmail: supaflow.works@gmail.com\nResponse Time: Within 30 business days\n\nIf you believe your data protection rights have been violated, you have the right to lodge a complaint with your local data protection authority."
+        "content": "For privacy-related inquiries, data requests, or concerns:\n\nEmail: hello@supaflow.in\nResponse Time: Within 7 working days\n\nIf you believe your data protection rights have been violated, you have the right to lodge a complaint with your local data protection authority."
       }
     ]
   },
   "terms": {
     "label": "// LEGAL",
     "heading": "Terms of Service",
-    "lastUpdated": "Last updated: January 15, 2025",
+    "lastUpdated": "Last updated: July 30, 2026",
     "intro": "These Terms govern your engagement with SupaFlow for digital design and development services. By commissioning work from us, you agree to the following conditions.",
     "sections": [
       {
@@ -383,7 +497,7 @@
       },
       {
         "title": "12. Contact",
-        "content": "For questions regarding these Terms of Service:\n\nEmail: supaflow.works@gmail.com\nResponse Time: Within 2 business days"
+        "content": "For questions regarding these Terms of Service:\n\nEmail: hello@supaflow.in\nResponse Time: Within 7 working days"
       }
     ]
   }

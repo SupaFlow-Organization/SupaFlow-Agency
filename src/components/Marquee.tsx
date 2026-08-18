@@ -15,7 +15,7 @@ function MarqueeContent({ duplicate = false }: { duplicate?: boolean }) {
 
 export default function Marquee() {
   return (
-    <div className="w-full bg-ink text-white/70 py-4 border-y border-white/10 relative z-20" role="marquee" aria-label="Services offered">
+    <div className="dark-section w-full bg-ink text-white/70 py-4 border-y border-white/10 relative z-20" role="marquee" aria-label="Services offered">
       <div className="marquee-container">
         <MarqueeContent />
         <MarqueeContent duplicate />

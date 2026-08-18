@@ -13,8 +13,10 @@ export default function Services() {
           <span className="font-mono text-[0.65rem] sm:text-xs text-gray-500 uppercase tracking-[0.1em]">
             {services.label}
           </span>
-          <h2 className="text-[clamp(2rem,5vw,4.5rem)] font-semibold tracking-tight mt-3 sm:mt-4">
-            {services.heading}
+          <h2 className="text-[clamp(2rem,5vw,4.5rem)] font-semibold tracking-tight leading-[1.05] mt-3 sm:mt-4">
+            {services.heading.split('before')[0]}
+            <br className="hidden md:block" />
+            before{services.heading.split('before')[1]}
           </h2>
         </Reveal>
 
@@ -34,7 +36,6 @@ export default function Services() {
                   <ImageWithSkeleton
                     src={services.items[0].image}
                     alt={services.items[0].title}
-                    loading="lazy"
                     containerClassName="absolute inset-0"
                     className="w-full h-full object-cover"
                   />
@@ -58,7 +59,6 @@ export default function Services() {
                   <ImageWithSkeleton
                     src={services.items[1].image}
                     alt={services.items[1].title}
-                    loading="lazy"
                     containerClassName="absolute inset-0"
                     className="w-full h-full object-cover"
                   />
@@ -87,7 +87,6 @@ export default function Services() {
                     <ImageWithSkeleton
                       src={services.items[2].image}
                       alt={services.items[2].title}
-                      loading="lazy"
                       containerClassName="absolute inset-0"
                       className="w-full h-full object-cover object-left-top group-hover:scale-105 transition-transform duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)]"
                     />
@@ -103,9 +102,8 @@ export default function Services() {
                 <ImageWithSkeleton
                   src={services.items[3].image}
                   alt={services.items[3].title}
-                  loading="lazy"
                   containerClassName="absolute inset-0"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               </div>
@@ -131,9 +129,8 @@ export default function Services() {
                 <ImageWithSkeleton
                   src={services.items[4].image}
                   alt={services.items[4].title}
-                  loading="lazy"
                   containerClassName="absolute inset-0"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               </div>
